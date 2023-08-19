@@ -1,0 +1,59 @@
+html {
+  width: 100%;
+  height: auto;
+
+  .main-div {
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(214, 135, 200);
+      padding: 15px;
+    }
+
+    .page {
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-size: 50px;
+        margin-left: 50px;
+      }
+
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        .link {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            background-color: #eee;
+            padding: 30px;
+            border-radius: 10%;
+            text-decoration: none;
+            font-size: 35px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+
+            :hover {
+              background-color: #ccc;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
